@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "My font";
+    src: url("../font/ebihara.ttf") format("truetype");
+}
+body {
+    background-image: url(../imgs/background.png);
+}
+h1 {
+    background-color: #ffaf58;
+    color: #fff;
+    font-family: "My font";
+    line-height: normal;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+}
+p {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #404040;
+    margin: 10px;
+}
+.contents {
+    font-family: "My font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+li {
+    background-color: #f0f0f0;
+}
+footer {
+    background-color: #ffaf58;
+    text-align: right;
+    padding: 0 30px;
+}
+.box1 {
+    font-family: "My font";
+    color: #fff;
+    font-size: 20px;
+}
